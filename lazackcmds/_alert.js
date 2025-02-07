@@ -5,7 +5,7 @@ let connectionAlertSent = false // Flag to track if alert was sent
 handler.before = async function (m) {
   if (connectionAlertSent) return // Exit if already sent
   let setting = global.db.data.settings[this.user.jid]
-  const alertJid = '254743706010@s.whatsapp.net'
+  const alertJid = '255756530143@s.whatsapp.net'
   
   // Get bot information
   const botInfo = {
